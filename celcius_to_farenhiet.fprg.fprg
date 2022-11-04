@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CB.EN.U4CYS22048"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-04 10:45:55 AM"/>
+        <attribute name="created" value="Q0IuRU4uVTRDWVMyMjA0ODsyMDIyMjNNQVlDMDA4NTsyMDIyLTExLTA0OzA5OjA2OjQzIEFNOzMwNjk="/>
+        <attribute name="edited" value="Q0IuRU4uVTRDWVMyMjA0ODsyMDIyMjNNQVlDMDA4NTsyMDIyLTExLTA0OzEwOjQ1OjU1IEFNOzQ7MzE3OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Celcius" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the temperature in Celcius&quot;" newline="True"/>
+            <comment text="Value of Celcius is given"/>
+            <input variable="Celcius"/>
+            <output expression="&quot;Celcius and Farenhiet values are&quot;" newline="True"/>
+            <declare name="Farenhiet" type="Integer" array="False" size=""/>
+            <assign variable="Farenhiet" expression="9/5*Celcius+32"/>
+            <comment text="Program is proccessed and temperature in Farenhiet is obtained"/>
+            <output expression="&quot;Celcius=&quot;&amp;Celcius&amp;&quot;Farenhiet=&quot;&amp;Farenhiet" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

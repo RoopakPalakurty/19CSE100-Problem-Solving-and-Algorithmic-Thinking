@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CB.EN.U4CYS22048"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-04 10:27:37 AM"/>
+        <attribute name="created" value="Q0IuRU4uVTRDWVMyMjA0ODsyMDIyMjNNQVlDMDA4NTsyMDIyLTExLTA0OzA5OjM5OjI4IEFNOzMwNzg="/>
+        <attribute name="edited" value="Q0IuRU4uVTRDWVMyMjA0ODsyMDIyMjNNQVlDMDA4NTsyMDIyLTExLTA0OzEwOjI3OjM3IEFNOzE7MzE3NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;solving roots for quadratic equation ax^2+bx+c&quot;" newline="True"/>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <comment text="values of a,b,c in ax^2+bx+c are given&#13;&#10;"/>
+            <output expression="&quot;enter the value of co-efficient of x^2 (a)&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;enter the value of co-efficient of x (b)&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;enter the value of constant (c)&quot;" newline="True"/>
+            <input variable="c"/>
+            <declare name="Result1" type="Real" array="False" size=""/>
+            <comment text="applying the formula to solve the roots quadratic equation"/>
+            <assign variable="Result1" expression="((-b)+sqrt(b*b-4*a*c))/2*a"/>
+            <output expression="&quot;hence 1st root of the quadratic equation (Result1)= &quot;" newline="True"/>
+            <output expression="Result1" newline="True"/>
+            <declare name="Result2" type="Real" array="False" size=""/>
+            <assign variable="Result2" expression="((-b)-sqrt((b*b)-4*a*c))/2*a"/>
+            <output expression="&quot;hence value of the 2nd root of quadratic equation (Result2) =&quot;" newline="True"/>
+            <output expression="Result2" newline="True"/>
+            <output expression="&quot;a=&quot;&amp;a&amp;&quot;b=&quot;&amp;b&amp;&quot;c=&quot;&amp;c&amp;&quot;Result1=&quot;&amp;Result1&amp;&quot;result2=&quot;&amp;Result2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
