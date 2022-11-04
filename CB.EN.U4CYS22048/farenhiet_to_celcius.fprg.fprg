@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CB.EN.U4CYS22048"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-04 10:45:33 AM"/>
+        <attribute name="created" value="Q0IuRU4uVTRDWVMyMjA0ODsyMDIyMjNNQVlDMDA4NTsyMDIyLTExLTA0OzA5OjMxOjQ0IEFNOzMwNjg="/>
+        <attribute name="edited" value="Q0IuRU4uVTRDWVMyMjA0ODsyMDIyMjNNQVlDMDA4NTsyMDIyLTExLTA0OzEwOjQ1OjMzIEFNOzQ7MzE3NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Farenhiet" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the value of Farenhiet&quot;" newline="True"/>
+            <input variable="Farenhiet"/>
+            <comment text="value of Farenhiet is given"/>
+            <declare name="Celcius" type="Integer" array="False" size=""/>
+            <assign variable="Celcius" expression="(Farenhiet-32)*5/9"/>
+            <comment text="Conversion formula of Farenhiet to Celcius is assinged"/>
+            <output expression="&quot;value of Celcius &amp; Farenhiet after conversion&quot;" newline="True"/>
+            <output expression="&quot;Farenhiet=&quot;&amp;Farenhiet&amp;&quot;Celcius=&quot;&amp;Celcius" newline="True"/>
+            <comment text="value of Farenhiet &amp; Celcius are obtained "/>
+        </body>
+    </function>
+</flowgorithm>
