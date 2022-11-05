@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Roopak Palakurty"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-04 09:30:06 PM"/>
+        <attribute name="created" value="Um9vcGFrIFBhbGFrdXJ0eTtERVNLVE9QLTJHUUdQS1E7MjAyMi0xMS0wNDswODozNjoyNiBQTTszOTgy"/>
+        <attribute name="edited" value="Um9vcGFrIFBhbGFrdXJ0eTtERVNLVE9QLTJHUUdQS1E7MjAyMi0xMS0wNDswOTozMDowNiBQTTs0OzQwODY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the dividend&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;enter the divisor&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="c" expression="a/b"/>
+            <assign variable="d" expression="a-(b*c)"/>
+            <output expression="&quot;the reminder of the numbers is &quot;&amp;d" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
