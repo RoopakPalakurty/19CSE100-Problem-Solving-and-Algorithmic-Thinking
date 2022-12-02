@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CB.EN.U4CYS22048"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-02 09:11:56 AM"/>
+        <attribute name="created" value="Q0IuRU4uVTRDWVMyMjA0ODsyMDIyMjNNQVlDMDA4NTsyMDIyLTEyLTAyOzA5OjA1OjE4IEFNOzMwNjk="/>
+        <attribute name="edited" value="Q0IuRU4uVTRDWVMyMjA0ODsyMDIyMjNNQVlDMDA4NTsyMDIyLTEyLTAyOzA5OjExOjU2IEFNOzE7MzE3Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="0"/>
+            <output expression="&quot;a=&quot;&amp;a" newline="True"/>
+            <assign variable="b" expression="0"/>
+            <output expression="&quot;b=&quot;&amp;b" newline="True"/>
+            <assign variable="c" expression="1"/>
+            <output expression="&quot;c=&quot;&amp;c" newline="True"/>
+            <while expression="c&lt;=10">
+                <assign variable="a" expression="a+1"/>
+                <output expression="&quot;a=&quot;&amp;a" newline="True"/>
+                <assign variable="b" expression="a+b"/>
+                <output expression="&quot;b=&quot;&amp;b" newline="True"/>
+                <assign variable="c" expression="c+1"/>
+                <output expression="&quot;c=&quot;&amp;c" newline="True"/>
+            </while>
+            <output expression="&quot;b=&quot;&amp;b" newline="True"/>
+            <output expression="&quot;therefore sum of 1,2,3.....10 is&quot;&amp;b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

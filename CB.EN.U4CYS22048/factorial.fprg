@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CB.EN.U4CYS22048"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-02 09:39:23 AM"/>
+        <attribute name="created" value="Q0IuRU4uVTRDWVMyMjA0ODsyMDIyMjNNQVlDMDA4NTsyMDIyLTEyLTAyOzA5OjI2OjA3IEFNOzMwNzA="/>
+        <attribute name="edited" value="Q0IuRU4uVTRDWVMyMjA0ODsyMDIyMjNNQVlDMDA4NTsyMDIyLTEyLTAyOzA5OjM5OjIzIEFNOzE7MzE4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="declared integers factorial counter and number for which factorial is solved for"/>
+            <declare name="factorial, number, counter" type="Integer" array="False" size=""/>
+            <assign variable="factorial" expression="1"/>
+            <output expression="&quot;enter the value of number upto which you want a factorial&quot;" newline="True"/>
+            <input variable="number"/>
+            <for variable="counter" start="1" end="number" direction="inc" step="1">
+                <assign variable="factorial" expression="factorial*counter"/>
+            </for>
+            <output expression="&quot;the factorial is&quot;&amp;factorial" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
