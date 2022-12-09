@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Roopak Palakurty"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-09 10:14:42 AM"/>
+        <attribute name="created" value="Um9vcGFrIFBhbGFrdXJ0eTtST09QQUtQQzsyMDIyLTEyLTA5OzA5OjEwOjEwIEFNOzM0NzQ="/>
+        <attribute name="edited" value="Um9vcGFrIFBhbGFrdXJ0eTtST09QQUtQQzsyMDIyLTEyLTA5OzEwOjE0OjQyIEFNOzE7MzU4Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="som" type="Integer" array="True" size="10"/>
+            <declare name="inte, inp" type="Integer" array="False" size=""/>
+            <for variable="inte" start="0" end="9" direction="inc" step="1">
+                <output expression="&quot;enter the values&quot;" newline="True"/>
+                <input variable="inp"/>
+                <assign variable="som[inte]" expression="inp"/>
+            </for>
+            <for variable="inte" start="0" end="9" direction="inc" step="1">
+                <output expression="&quot;the values of your arrays are&quot;&amp;som[inte]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
