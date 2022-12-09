@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Roopak Palakurty"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-09 11:27:01 AM"/>
+        <attribute name="created" value="Um9vcGFrIFBhbGFrdXJ0eTtST09QQUtQQzsyMDIyLTEyLTA5OzExOjE0OjUwIEFNOzM0NzU="/>
+        <attribute name="edited" value="Um9vcGFrIFBhbGFrdXJ0eTtST09QQUtQQzsyMDIyLTEyLTA5OzExOjI3OjAxIEFNOzE7MzU4Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="array" type="Integer" array="True" size="5"/>
+            <declare name="inp, max, x" type="Integer" array="False" size=""/>
+            <comment text="as given inputs are 5 limits are entered accordingly to that"/>
+            <for variable="x" start="0" end="4" direction="inc" step="1">
+                <output expression="&quot;enter&quot;&amp;x+1&amp;&quot;value&quot;" newline="True"/>
+                <input variable="inp"/>
+                <assign variable="array[x]" expression="inp"/>
+            </for>
+            <comment text="assuming some value to get the max value among the 5"/>
+            <comment text="i.e that largest integer"/>
+            <assign variable="max" expression="array[0]"/>
+            <comment text="using if loop for crosschecking the output from for condition"/>
+            <for variable="x" start="0" end="4" direction="inc" step="1">
+                <if expression="array[x]&gt;max">
+                    <then>
+                        <assign variable="max" expression="array[x]"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <comment text="printing the largest value among the 5"/>
+            <output expression="&quot;the largest integer value in array is&quot;&amp;max" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
